@@ -1,4 +1,5 @@
 import "./App.css";
+import { DarkModeToggle } from "./compnents/DarkModeToggle";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header // </div>className="App-header"
       >
         <h1>Heins Ice</h1>
+        <DarkModeToggle></DarkModeToggle>
         <img
           src={`${process.env.PUBLIC_URL}/img/logoIceWaffle.svg`}
           //className="App-logo"
