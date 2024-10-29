@@ -1,11 +1,11 @@
 import "./App.css";
+
 import { DarkModeToggle } from "./compnents/DarkModeToggle";
 
 function App() {
   return (
     <div className="App">
-      <header // </div>className="App-header"
-      >
+      <header className="App-header">
         <h1>Heins Ice</h1>
         <DarkModeToggle></DarkModeToggle>
         <img
