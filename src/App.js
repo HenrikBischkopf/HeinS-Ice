@@ -1,8 +1,23 @@
 import "./App.css";
+import { useState } from "react";
 
 import { DarkModeToggle } from "./compnents/DarkModeToggle";
 
 function App() {
+  const [landingData, setLandingData] = useState([
+    {
+      id: 0,
+      name: "Ice season",
+      link: "/overview",
+      icon: "/img/iconOverview.png",
+    },
+    {
+      id: 1,
+      name: "Waffle season",
+      link: "/ownedPage",
+      icon: "/img/iconOwned.png",
+    },
+  ]);
   return (
     <div className="App">
       <header className="App-header">
